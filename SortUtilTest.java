@@ -4,9 +4,6 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import clase.SortUtil;
-import clase.StringUtil;
-
 public class SortUtilTest {
 	private static SortUtil obj;
 

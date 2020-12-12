@@ -19,14 +19,6 @@ public class SortUtilTest {
 		obj.bubbleSort(arr);
         assertArrayEquals(expected, arr);
 	}
-
-	@Test
-	public void testIncorrectSort() {
-		int arr[] = {5, -1, 3};
-		int[] expected = {1, 2, 3};
-		obj.bubbleSort(arr);
-        assertNotEquals(expected, arr);
-	}
 	
 	@Test
 	public void testEmptyArray() {
